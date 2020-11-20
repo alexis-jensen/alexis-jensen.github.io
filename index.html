@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-  <title>Lugrim</title>
+  <title>Alexis Jensen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" href="bird.png" type="image/x-icon">
   <link rel="stylesheet" href="css/main.bundle.css">
   <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
 </head>
@@ -13,7 +13,7 @@
   <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <div class="navbar-item is-hidden-desktop">
-        <a href="https://github.com/Lugrim" class="icon is-large has-text-light">
+        <a href="https://github.com/alexis-jensen" class="icon is-large has-text-light">
           <i class="fab fa-2x fa-github"></i>
         </a>
       </div>
@@ -21,7 +21,7 @@
     <div class="navbar-menu">
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="https://github.com/Lugrim" class="icon is-large has-text-light">
+          <a href="https://github.com/alexis-jensen" class="icon is-large has-text-light">
             <i class="fab fa-2x fa-github"></i>
           </a>
         </div>
@@ -32,17 +32,17 @@
   <section class="hero is-primary">
     <div class="hero-body">
       <div class="container">
-        <div class="level">
+        <div class="level" style="margin-bottom:2cm;">
           <div class="level-item has-text-centered">
             <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me-big.jpg">
+              <img class="is-rounded" src="bird.png">
             </figure>
           </div>
         </div>
         <div class="columns has-text-centered">
           <div class="column">
             <h1 class="title is-1">
-              Lugrim
+              Alexis Jensen
             </h1>
             <h2 class="subtitle">
               Computer Science Student
@@ -80,28 +80,28 @@
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
-                <img src="img/excense-logo.png" alt="Placeholder image">
+                <img src="img/Mitsubishi_logo.png" alt="Placeholder image">
               </figure>
             </div>
             <div class="media-content">
-              <p class="title is-4">Excense</p>
-              <p class="subtitle is-6">Trainee - <time datetime="2020-7">July 2020</time> - <time
-                  datetime="2020-8">August 2020</time> </p>
+              <p class="title is-4">Mitsubishi Electrics Research & Development Center Europe</p>
+              <p class="subtitle is-6">Trainee - <time datetime="2018-6">June 2018</time> - <time
+                  datetime="2018-7">July 2018</time> </p>
             </div>
           </div>
           <div class="content">
-            <p>Proof of Concept of a mobile Companion Application.</p>
+            <p>Conception and implementation of a bridge between a web API and an automatisation process on the research center's computers.</p>
             <!--<ul>
               <li>Noteworthy achievment here.</li>
               <li>Noteworthy achievment here.</li>
               <li>Noteworthy achievment here.</li>
             </ul>-->
             <div class="tags">
-              <span class="tag">c#</span>
-              <span class="tag">asp.net mvc</span>
-              <span class="tag">html</span>
-              <span class="tag">css</span>
-              <span class="tag">js</span>
+              <span class="tag">python</span>
+              <span class="tag">web</span>
+              <span class="tag">api</span>
+              <span class="tag">data</span>
+              <span class="tag">network</span>
             </div>
           </div>
         </div>
@@ -143,27 +143,29 @@
 
   <section class="section">
     <div class="container">
-      <h1 class="title">Projects</h1>
+      <h1 class="title">My projects</h1>
       <hr />
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-12">
           <div class="tile">
-            <div class="modal-trigger tile is-parent" data-target="choupyramid-modal">
+            <div class="modal-trigger tile is-parent" data-target="space-modal">
               <article class="tile is-child notification">
-                <p class="title">Choupyramid</p>
+                <p class="title">OpenGL animation</p>
+                <figure class="image is-16by9">
+                  <img src="img/carousel/space-1.png">
+                </figure>
+              </article>
+            </div>
+            
+            <div class="modal-trigger tile is-parent is-5" data-target="web-modal">
+              <article class="tile is-child notification">
+                <p class="title">(WIP) Web game using Angular and Rest Routes</p>
                 <figure class="image is-3by2">
-                  <img src="img/choupyramid-cover.jpg">
+                  <img src="img/carousel/web-5.png">
                 </figure>
               </article>
             </div>
-            <div class="modal-trigger tile is-parent" data-target="sword-modal">
-              <article class="tile is-child notification">
-                <p class="title">Gallic Ceremony</p>
-                <figure class="image is-4by3">
-                  <img src="img/gallic-cover.png">
-                </figure>
-              </article>
-            </div>
+            
             <!--<div class="modal-trigger tile is-parent" data-target="project-3-modal">
               <article class="tile is-child notification">
                 <p class="title">Project title</p>
@@ -173,6 +175,30 @@
               </article>
             </div>-->
           </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="modal-trigger tile is-parent is-5" data-target="mcts-modal">
+              <article class="tile is-child notification">
+                <p class="title">Playing Gyges against an AI</p>
+                <figure class="image is-square">
+                  <img src="img/carousel/mcts-1.png">
+                </figure>
+              </article>
+            </div>
+            
+            <div class="modal-trigger tile is-parent" data-target="sword-modal">
+              <article class="tile is-child notification">
+                <p class="title">Gallic Ceremony in VR</p>
+                <figure class="image is-4by3">
+                  <img src="img/gallic-cover.png">
+                </figure>
+              </article>
+            </div>
+            
+            </div>
         </div>
       </div>
       <!--<div class="tile is-ancestor">
@@ -208,6 +234,7 @@
     </div>
   </section>
 
+
   <section class="section">
   
     <div class="container">
@@ -230,7 +257,7 @@
           <div class="content">
             <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.</p>-->
             <ul>
-              <li>Computer Security Option</li>
+              <li>Media and Interaction Option</li>
             </ul>
           </div>
         </div>
@@ -248,7 +275,7 @@
             <a href="https://github.com/Lugrim" class="icon is-large">
               <i class="fab fa-2x fa-github"></i>
             </a>
-            <p class="heading"><a href="https://github.com/Lugrim">github.com/Lugrim</a></p>
+            <p class="heading"><a href="https://github.com/alexis-jensen">github.com/alexis-jensen</a></p>
           </div>
         </div>
         <!--<div class="level-item has-text-centered">
@@ -280,34 +307,36 @@
   </section>
 
   <!-- Modals -->
-  <div id="choupyramid-modal" class="modal">
+  <div id="space-modal" class="modal">
     <div class="modal-background"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title">Choupyramid</p>
+        <p class="modal-card-title">Spaceship OpenGL animation</p>
         <button class="delete" aria-label="close"></button>
       </header>
       <section class="modal-card-body">
 
-        <div id="choupyramid-modal-carousel" class="carousel">
+        <div id="space-modal-carousel" class="carousel">
           <figure class="image is-16by9 carousel-cell">
-            <img src="img/carousel/cp-1.png">
+            <img src="img/space-icon.png">
           </figure>
           <figure class="image is-16by9 carousel-cell">
-            <img src="img/carousel/cp-2.png">
+            <img src="img/carousel/space-2.png">
           </figure>
-          <figure class="image is-16by9 carousel-cell">
-            <img src="img/carousel/cp-3.jpg">
-          </figure>
+	  <figure class="image">
+	    <iframe class="has-ratio" width="600" height="360" src="https://www.youtube.com/embed/lvZ4ucpGkOg" frameborder="0" allowfullscreen></iframe>
+	  </figure>
         </div>
 
         <div class="content">
 
-          <p>A small plateformer made in a week-end for the <a href="https://itch.io/jam/mini-jam-61">Minijam 61</a> with some friends.</p>
+          <p>A computer graphics project made in C++ using the OpenGL library, with models made using Blender. From light computing to physics simulation, the project covers a variety of notions in the domain of Computer Graphics.</p>
 
           <div class="tags">
-            <span class="tag">unity</span>
-            <span class="tag">c#</span>
+            <span class="tag">c++</span>
+            <span class="tag">blender</span>
+            <span class="tag">shaders</span>
+            <span class="tag">computer-graphics</span>
           </div>
 
         </div>
@@ -363,6 +392,91 @@
       </footer>
     </div>
   </div>
+  
+  <div id="web-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Web Game</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="web-modal-carousel" class="carousel">
+          <figure class="image is-16by9 carousel-cell">
+            <img src="img/carousel/web-4.png">
+          </figure>
+          <figure class="image carousel-cell">
+            <img src="img/carousel/web-2.png">
+          </figure>
+          <figure class="image carousel-cell">
+            <img src="img/carousel/web-3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>A semester-long project where we set up a back-end and a front-end to create an online game. We use Java to set-up a server and Angular to manage the website. Rest routes are used
+          to make our server and our website communicate. The game is a simplified version of "Islanders", a tile-based puzzle game !</p>
+
+          <div class="tags">
+            <span class="tag">angular</span>
+            <span class="tag">REST</span>
+            <span class="tag">web</span>
+            <span class="tag">Java</span>
+            <span class="tag">html</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button btn-secondary" data-dismiss="modal">Close</button>
+      </footer>
+    </div>
+  </div>
+  
+  <div id="mcts-modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Gyges AI</p>
+        <button class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+
+        <div id="mcts-modal-carousel" class="carousel">
+          <figure class="image carousel-cell">
+            <img src="img/carousel/mcts-1.png">
+          </figure>
+          <figure class="image carousel-cell">
+            <img src="img/carousel/mcts-2.png">
+          </figure>
+          <figure class="image carousel-cell">
+            <img src="img/carousel/mcts-3.png">
+          </figure>
+        </div>
+
+        <div class="content">
+
+          <p>A small-scale class project to get a feel of basic AI computing. Using MonteCarloTreeSearch, we created an AI to play the game of "Gyges" against.</p>
+
+          <div class="tags">
+            <span class="tag">c</span>
+            <span class="tag">AI</span>
+            <span class="tag">mcts</span>
+            <span class="tag">CLI</span>
+          </div>
+
+        </div>
+
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button btn-secondary" data-dismiss="modal">Close</button>
+      </footer>
+    </div>
+  </div>
+  
 
   <footer class="footer">
     <div class="content has-text-centered">
